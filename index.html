@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo.png" alt="RPS LOGO" width="100" />
+      <div>
+        <h1 class="heading">
+          TS <span class="rock">Rock</span>, <span class="paper">Paper</span>,
+          <span class="scissors">Scissors</span> Game
+        </h1>
+        <p class="sub-heading">- Have fun ;)</p>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <div class="choose">
+        <div class="choise" data-rps="rock">
+          <img src="/assets/rock.png" alt="" />
+        </div>
+        <div class="choise" data-rps="paper">
+          <img src="/assets/paper.png" alt="" />
+        </div>
+        <div class="choise" data-rps="scissors">
+          <img src="/assets/scissors.png" alt="" />
+        </div>
+      </div>
+      <div class="result">
+        <div class="user-choise">
+          <img src="/assets/paper.png" alt="" />
+        </div>
+        <div class="point"><div class="point-num">12</div></div>
+        <div class="robat-choise">
+          <img src="/assets/scissors.png" alt="" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="continue">Continue</button>
+        <button class="restart">Restart</button>
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
